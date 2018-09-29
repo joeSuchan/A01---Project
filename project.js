@@ -10,7 +10,7 @@ function changeLinkedin() {
     $('#changeLinkedin').attr("src", "Icons/Circle_Color/Linkedin.png")
 }
 function changeLinkBack() {
-    $('#changeLinkedin').attr("src", "Icons/Circle_Black_White/LinkedIn.png")
+    $('#changeLinkedin').attr("src", "Icons/Circle_Black_White/Linkedin.png")
 }
 //Changes the Facebook Logo
 function changeFace() {
