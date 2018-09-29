@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tip Calculator</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="calc.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="paw.png">
+</head>
+
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+		
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html">Suchan A01</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">Home</a></li>
+			<li class="active"><a href="tipCalc.html">Tip Calculator</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		</div>
+	</nav>
+
+
+	<div id ="container">
+		<h1>Tip Calculator</h1>
+		<hr>
+		
+		<div>
+			<label> Total Bill: </label>
+			<input type="text" placeholder="Enter your total bill" id="billTotal">
+		</div>
+		<div>
+			<label>Tip:</label>
+			<input type="range" value="0" id="tipInput">
+			<span id="tipOutput"></span>
+		</div>
+		<div>
+			<label>Split(number of people)</label>
+			<input type="range" min="1" max="10" value="1" id="splitInput">
+			<span id="splitOutput"></span>
+		</div>
+		<hr>
+		
+		<div>
+			<div>
+				<label>New Bill(per person):</label><span id="newBill"></span>
+			</div>
+			<div>
+				<label>New Tip Amount(per person):</label><span id="tipEach"></span>
+			</div>
+		</div>
+	</div>
+	
+	
+<footer>
+<div class= "container-fluid">
+	<div class = "row">
+		<div class = "col-md-6">
+			<h2> A01 - Home</h2>
+			<h4>This was the A01 Project created by Joe Suchan
+			</h4>
+		</div>
+		<div class = "col-md-2">
+			<h3><a href="index.html">Home</a></h3>
+		</div>
+		<div class = "col-md-2">
+			<h3><a href="tipCalc.html">Tip Calculator</a></h3>
+		</div>
+		<div class = "col-md-2">
+			<h3><a href="contact.html">Contact</a></h3>
+		</div>
+	</div>
+</div>
+</footer>
+	
+<script src="project.js"></script>
+</body>
+</html>
+ 

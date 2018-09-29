@@ -1,0 +1,63 @@
+body{
+	background-image: url("background.png");
+}
+footer{
+	background-color: #000000;
+	height: 100px;
+	
+}
+footer h3:hover {
+	color: #ffffff;
+}
+footer a{color: #333333;
+		text-decoration: none;
+}
+footer a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#centerPhoto{
+    width: 100%;
+    padding: 10px;
+	padding-top: 1%;
+	padding-left: 10%;
+}
+
+nav{
+	font-size: 2.0em;
+}
+#bucket{
+	height: 128px;
+	width:128px;
+}
+#headerStyle{
+	background-color: #333333;
+	color:#ffffff;
+	text-align: center;
+}
+
+#contactForm{
+	text-align: center;
+	font-size: 1.5em;
+}
+#map{
+	
+	height: 350px;
+	border: 0;
+	width:100%;
+	
+}
+   
+.aboutMeText{
+	margin-top: 5%;
+	margin-left: 5%;
+	font-size: 2.0em;
+}
+.videoMargin{
+	margin-left:8%;
+	border: none;
+}
+
+
+

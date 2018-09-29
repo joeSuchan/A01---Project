@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="a01.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="paw.png">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html">Suchan A01</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="tipCalc.html">Tip Calculator</a></li>
+			<li class ="active"><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+
+	<!-- This is the google map and form -->
+	<div class = "container-fluid">
+		<div class = "row">
+			<div class = "col-md-6">
+				<iframe  id ="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3040.5945246123974!2d-94.8866481481323!3d40.35133999865688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05585b7bd19b1%3A0xfc94da964c338044!2sNorthwest+Missouri+State+University!5e0!3m2!1sen!2sus!4v1537847665740" >
+				</iframe>
+			</div>
+			<div class = "col-md-6" id ="contactForm">
+				<p>Required fields are marked with an asterisk (*).</p>
+					<form method="post" action="/action_page.php">
+						<label for="myName">*Name:</label>
+						<input type="text" id="myName" name="myName" required="required"><br>
+						<label for="myEmail">*Email:</label>
+						<input type="email" id="myEmail" name="myEmail" required="required"><br>
+						<label for="myComments">*Comments:</label>
+						<textarea id="myComments" name="myComments" rows="2" cols="20" required="required"></textarea><br>
+						<input type="submit" value="Send Now" id="mySubmit">
+					</form>
+			</div>
+		</div>
+	</div>
+<br>
+	<!-- This is the connect photos -->
+	<div class = "container-fluid">
+		<div class = "row" id ="headerStyle">
+			<h1>Connect with me online</h1>
+		</div>
+		<div class = "row" id="centerPhoto">
+			<div class="col-md-3">
+				<a href ="https://github.com/joeSuchan">
+				<img id="changeGit" src = "Icons/Circle_Black_White/Github.png" alt ="Joe's Github Profile"></a>
+			</div>
+			<div class ="col-md-3">
+				<a href = "https://www.linkedin.com/in/joseph-suchan-b75193138/">
+				<img id="changeLinkedin" src = "Icons/Circle_Black_White/Linkedin.png" alt ="Joe's Linkedin Profile"></a>
+			</div>
+			<div class ="col-md-3">
+				<a href ="https://www.facebook.com/joseph.suchan.5">
+				<img id="facebook" src = "Icons/Circle_Black_White/Facebook.png" alt ="Joe's Facebook Profile"></a>
+			</div>
+			<div class ="col-md-3" id ="centerMe">
+				<a href ="https://bitbucket.org/joeSuchan/">
+				<img id="bucket" src = "Icons/Circle_Black_White/bitBucket.png" alt ="Joe's Bitbucket Profile"></a>
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- This is the footer -->
+<footer>
+<div class= "container-fluid">
+	<div class = "row">
+		<div class = "col-md-6">
+			<h2> A01 - Home</h2>
+			<h4>This was the A01 Project created by Joe Suchan
+			</h4>
+		</div>
+		<div class = "col-md-2">
+			<h3><a href="index.html">Home</a></h3>
+		</div>
+		<div class = "col-md-2">
+			<h3><a href="tipCalc.html">Tip Calculator</a></h3>
+		</div>
+		<div class = "col-md-2">
+			<h3><a href="contact.html">Contact</a></h3>
+		</div>
+	</div>
+</div>
+</footer>
+	
+<script src="project.js">
+</script>
+</body>	
+	
+	
+
+
+
+
+</html>

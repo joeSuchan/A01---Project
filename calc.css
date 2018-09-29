@@ -1,0 +1,81 @@
+body{
+	font-size: 1.2em;
+	width: 100%;
+	margin: 0 auto;
+	letter-spacing: 0.5px;
+}
+
+nav{
+	font-size: 2.0em;
+}
+
+footer{
+	background-color: #000000;
+	height: 100px;
+}
+footer h3:hover {
+	color: #ffffff;
+}
+footer a{color: #333333;
+		text-decoration: none;
+}
+footer a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	
+}
+#container{
+	padding: 1.5em;
+	background: linear-gradient(-45deg, rgb(41,50,154), rgb(255,255,255));
+	border-radius: 10px;
+	
+}
+
+div{
+	line-height: 2.5em;
+}
+input[type="text"]{
+	font-size: 1.1em;
+	text-align: center;
+	width:60%;
+	margin-left: -20%;
+}
+label, input {
+	width: 100%;
+}
+
+@media(min-width: 700px){
+	body{
+		background: url(background.png);
+		margin-top: 20px;
+		
+		
+	}
+	
+	#container{opacity: 0.8;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	
+	}
+	label, input {
+		width: 40%;
+		display: inline-block;
+		}
+	
+	div{
+		line-height: 4em;
+	}
+	#newBill{font-size: 1.5em;
+				font-weight: bold;
+	}
+	#tipEach{
+		font-size: 1.3em;
+				font-weight: bold;
+	}
+	
+}
