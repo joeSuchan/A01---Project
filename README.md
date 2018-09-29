@@ -32,3 +32,5 @@ Title your post "NN Lastname, Firstname(s) - success" if successful, title your 
 
 
 Website has a simple layout, reason I did not go with a tic-tac-toe game becuase the directions say using simular calucations would result in a 10% decrease in grade and having a majortiy of the class do the game I wanted to avoid it.
+
+Testing - pushing and pulling
