@@ -222,7 +222,7 @@ nav{
 	padding-bottom:3%;
 	}
 	.img-circle{
-		padding-left: 100px;
+		margin-left: 100px;
 	}
 	.videoMargin{
 		width: 70%;
@@ -233,7 +233,7 @@ nav{
     #centerPhoto{
     width: 100%;
 	margin-left: 20%;
-	padding-bottom:3%;
+	margin-bottom:3%;
 	}
 	.videoMargin{
 		width: 80%;
